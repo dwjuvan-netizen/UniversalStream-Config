@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-19",
+  "sources": [
+    {
+      "type": "m3u",
+      "name": "Sports Live TV",
+      "url": "https://example.com/sports-live.m3u",
+      "description": "Live sports channels including NFL, NBA, MLB, Premier League"
+    },
+    {
+      "type": "m3u",
+      "name": "News Channels",
+      "url": "https://example.com/news-live.m3u",
+      "description": "24/7 news including CNN, Fox News, MSNBC, BBC"
+    },
+    {
+      "type": "m3u",
+      "name": "General Entertainment",
+      "url": "https://example.com/entertainment-live.m3u",
+      "description": "Movies, series, and general entertainment"
+    }
+  ],
+  "categories": {
+    "sports": {
+      "name": "Sports",
+      "channels": [
+        {
+          "id": "espn-live",
+          "name": "ESPN Live",
+          "url": "https://example.com/espn.m3u",
+          "logo": "https://example.com/logos/espn.png",
+          "is_live": true,
+          "languages": ["en"]
+        },
+        {
+          "id": "fox-sports",
+          "name": "Fox Sports",
+          "url": "https://example.com/fox-sports.m3u",
+          "logo": "https://example.com/logos/fox.png",
+          "is_live": true,
+          "languages": ["en"]
+        },
+        {
+          "id": "nbcsports",
+          "name": "NBC Sports",
+          "url": "https://example.com/nbc-sports.m3u",
+          "logo": "https://example.com/logos/nbc.png",
+          "is_live": true,
+          "languages": ["en"]
+        }
+      ]
+    },
+    "news": {
+      "name": "News",
+      "channels": [
+        {
+          "id": "cnn-live",
+          "name": "CNN Live",
+          "url": "https://example.com/cnn.m3u",
+          "logo": "https://example.com/logos/cnn.png",
+          "is_live": true,
+          "languages": ["en"]
+        },
+        {
+          "id": "fox-news",
+          "name": "Fox News",
+          "url": "https://example.com/fox-news.m3u",
+          "logo": "https://example.com/logos/fox-news.png",
+          "is_live": true,
+          "languages": ["en"]
+        },
+        {
+          "id": "msnbc",
+          "name": "MSNBC",
+          "url": "https://example.com/msnbc.m3u",
+          "logo": "https://example.com/logos/msnbc.png",
+          "is_live": true,
+          "languages": ["en"]
+        }
+      ]
+  }
+}
