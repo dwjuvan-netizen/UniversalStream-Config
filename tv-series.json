@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-19",
+  "sources": [
+    {
+      "type": "archive",
+      "name": "Internet Archive TV",
+      "url": "https://archive.org/details/tv",
+      "description": "Classic TV shows and series"
+    },
+    {
+      "type": "archive",
+      "name": "Internet Archive Movies",
+      "url": "https://archive.org/movies",
+      "description": "Documentary and educational series"
+    },
+    {
+      "type": "custom",
+      "name": "User-Provided Sources",
+      "url": "",
+      "description": "Add your own TV series databases here"
+    }
+  ],
+  "categories": {
+    "action": {
+      "name": "Action",
+      "description": "Action TV series"
+    },
+    "comedy": {
+      "name": "Comedy",
+      "description": "Comedy series"
+    },
+    "drama": {
+      "name": "Drama",
+      "description": "Dramatic series"
+    },
+    "horror": {
+      "name": "Horror",
+      "description": "Horror series"
+    },
+    "sci-fi": {
+      "name": "Sci-Fi",
+      "description": "Science fiction series"
+    },
+    "documentary": {
+      "name": "Documentary",
+      "description": "Documentary series"
+    }
+  }
+}
